@@ -1,0 +1,228 @@
+.none{
+    height: 800px;
+}
+#join-discord{
+    font-size: 2em;
+    padding: auto;
+    margin-top: -15%;
+    color: white;
+    font-weight: 700;
+}
+.ascecia{
+}
+#description{
+    outline: 2px rgba(0, 0, 0, 0.444) solid;
+}
+.texte{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.green{
+    min-height: 600px;
+    height: auto;
+    display: table;
+    backdrop-filter: blur(10em);
+}
+#description{
+    background: #000000;
+    animation: gradient ease 25s infinite;
+    background-size: 400%;
+}
+.yellow{
+    height: 600px;
+    width: 100vw;
+}
+.d-flex{
+    margin-top: 15px;
+}
+#headnav{
+    line-height: 30px;
+}
+.nav-item{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.welcome{
+    position: relative;
+    top: 12%;
+    font-size: 350.5%;
+    color: #00BF63CC;
+    text-shadow: 1px 1px 1px #FFFFFFFF, 2px 2px 2px #FFFFFFFF, 1px 1px 1px #FFFFFFFF;
+}
+.join-us{
+    position: relative;
+    top: 17%;
+    font-size: 200.5%;
+    color: #000000CC;
+    text-shadow: 1px 1px 1px #FFFFFFFF, 2px 2px 2px #FFFFFFFF, 1px 1px 1px #FFFFFFFF;
+}
+.arrow-down{
+    font-size: 200%;
+}
+.join-us-span{
+    position: relative;
+    font-size: 200.5%;
+    color: #000000CC;
+    text-shadow: 1px 1px 1px #FFFFFFFF, 2px 2px 2px #FFFFFFFF, 1px 1px 1px #FFFFFFFF;
+}
+.title{
+    margin-top: 60px;
+    position: relative;
+    top: 5%;
+    min-width: 100%;
+}
+.title .desc{
+    font-size: 400.5%;
+}
+section{
+    transform: scale(0.999);
+}
+.content{
+    font-size: 140%;
+    position: relative;
+    margin-top: 60px;
+    top: 35%;
+    left: 17.5%;
+    text-align: center;
+    width: 65%;
+    margin-bottom: 30px;
+}
+  @keyframes gradient {
+      0% {
+          background-position: 0% 100%;
+      }
+      50% {
+          background-position: 100% 0%;
+      }
+      100% {
+          background-position: 0% 100%;
+      }
+  }
+
+.content li{
+    text-align: left;
+}
+.content span{
+    font-weight: bold;
+    font-size: 165%;
+}
+
+/* ACTUS */
+.actus{
+    height: 900px;
+    background-color: #000000;
+    background-size: 400%;
+    align-items: center;
+}
+.carousel-item{
+    width: 100%;
+}
+.image{
+    display: grid;
+    place-items: center;
+    place-self: center;
+    width: 100%;
+}
+.actus img{
+    border-radius: 5%;
+    height: 600px;
+    width: auto;
+    max-width: 80%;
+    object-fit: cover;
+}
+.link{
+    text-decoration: none;
+    color: forestgreen;
+    transition: 300ms;
+}
+.link:hover{
+    color: white;
+    transition: 300ms;
+}
+.text{
+    position: absolute;
+    margin-right: 20%;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 90%;
+    max-width: 60%;
+    border-radius: 5%;
+    background-color: #ffeacbcc;
+    box-shadow: 2px 2px 2px #ffeacbcc, 2px 2px 2px #623b01cc, 2px 2px 2px #693f00cc;
+    backdrop-filter: blur(10px);
+}
+.text h1{
+    color: #4e350eEE;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 75%;
+    font-size: 4vw;
+    text-align: center;
+}
+#carouselExampleFade{
+    height: 500px;
+}
+
+/* Navbar */
+.navbar-brand{
+    color: black;
+    font-size: 200%;
+    padding: 5px;
+    margin-left: 1%;
+    list-style-type: none;
+}
+carousel-control-next{
+    z-index: 30;
+}
+carousel-control-prev{
+    z-index: 30;
+}
+.navbar-toggler{
+    margin-right: 1%;
+}
+.navbar-brand img{
+    border-radius: 10px;
+}
+/* minwidth */
+@media (min-width: 576px) {}
+/* Hello TEXT */
+
+.linear-green-content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+@keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+}
+
+@keyframes slide-up {
+    0% {
+      transform:translateY(90%);
+    }
+    100% {
+      transform:translateY(0%);
+      animation: none;
+    }
+}
+
+@keyframes slide-down {
+    0% {
+      transform:translateY(0%);
+    }
+    100% {
+      transform:translateY(90%);
+      animation: none;
+    }
+}

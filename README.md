@@ -1,2 +1,2 @@
 # ascecia-web
-le site officiel d'ascecia ! https://ascecia.duckdns.org
+Le site web d'ascecia ascecia.duckdns.org
