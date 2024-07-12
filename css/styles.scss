@@ -121,14 +121,9 @@ section{
     place-items: center;
     place-self: center;
     width: 100%;
-}
-.actus img{
-    border-radius: 5%;
     height: 600px;
-    width: auto;
-    max-width: 80%;
-    object-fit: cover;
 }
+
 .link{
     text-decoration: none;
     color: forestgreen;
@@ -140,19 +135,18 @@ section{
 }
 .text{
     position: absolute;
-    margin-right: 20%;
     display: grid;
     place-items: center;
     height: 100%;
     width: 90%;
     max-width: 60%;
-    border-radius: 5%;
-    background-color: #ffeacbcc;
-    box-shadow: 2px 2px 2px #ffeacbcc, 2px 2px 2px #623b01cc, 2px 2px 2px #693f00cc;
+    border-radius: 0.5%;
+    background-color: #f73333;
+    box-shadow: 2px 2px 2px #f73333cc, 2px 2px 2px #f71113cc, 2px 2px 2px #f22233cc;
     backdrop-filter: blur(10px);
 }
 .text h1{
-    color: #4e350eEE;
+    color: white;
     font-weight: 400;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 75%;
